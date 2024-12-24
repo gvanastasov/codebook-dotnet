@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_blazor_app", "src\chapte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_maui", "src\chapters\01_project_types\07_maui\07_maui.csproj", "{3C7C28C3-0F23-43D6-BC2D-E960EFA09063}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_project_blocks", "02_project_blocks", "{6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_dependency_injection", "src\chapters\02_project_blocks\01_dependency_injection\01_dependency_injection.csproj", "{7F055732-5A85-4E30-9477-DA5B6046F7E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +65,10 @@ Global
 		{3C7C28C3-0F23-43D6-BC2D-E960EFA09063}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C7C28C3-0F23-43D6-BC2D-E960EFA09063}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C7C28C3-0F23-43D6-BC2D-E960EFA09063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F055732-5A85-4E30-9477-DA5B6046F7E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F055732-5A85-4E30-9477-DA5B6046F7E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F055732-5A85-4E30-9477-DA5B6046F7E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F055732-5A85-4E30-9477-DA5B6046F7E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,5 +83,7 @@ Global
 		{114B3CD5-3E61-44AA-87C7-4D87AF13E512} = {1B73CA48-92D3-4CF2-B889-0FFFE761BF1E}
 		{1961DCA2-9028-452D-8FDB-9CA0209338B9} = {1B73CA48-92D3-4CF2-B889-0FFFE761BF1E}
 		{3C7C28C3-0F23-43D6-BC2D-E960EFA09063} = {1B73CA48-92D3-4CF2-B889-0FFFE761BF1E}
+		{6230E8BC-BF39-4DE7-A283-3BE1B8F9866F} = {5D22861C-4B54-4B6B-9D5C-F38894F69BB1}
+		{7F055732-5A85-4E30-9477-DA5B6046F7E6} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
 	EndGlobalSection
 EndGlobal

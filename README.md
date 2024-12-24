@@ -8,11 +8,9 @@
     - [Windows Applications (WinForms, WPF)](./src/chapters/01_project_types/05_windows_app/readme.md)
     - [Blazor Applications](./src/chapters/01_project_types/06_blazor_app/readme.md)
     - [.NET MAUI (Cross-platform)](./src/chapters/01_project_types/07_maui/readme.md)
-
-Chapter 2: Dependency Injection (DI) in .NET
-Understanding DI Basics
-Built-in DI container in ASP.NET Core.
-Using DI in Console and Worker projects.
+2. Project Blocks
+    - [Dependency Injection (DI) in .NET](./src/chapters/02_project_blocks/01_dependency_injection/readme.md)
+    - 
 
 Chapter 3: Middleware in ASP.NET Core
 What is Middleware?
