@@ -10,11 +10,9 @@
     - [.NET MAUI (Cross-platform)](./src/chapters/01_project_types/07_maui/readme.md)
 2. Project Blocks
     - [Dependency Injection (DI) in .NET](./src/chapters/02_project_blocks/01_dependency_injection/readme.md)
-    - 
+    - [Middleware](./src/chapters/02_project_blocks/02_middleware/Program.cs)
 
-Chapter 3: Middleware in ASP.NET Core
-What is Middleware?
-Built-in middleware vs custom middleware.
+
 Order of middleware execution.
 
 Chapter 4: RESTful APIs with ASP.NET Core
