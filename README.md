@@ -1,9 +1,8 @@
 # codebook-dotnet
  
-Chapter 1: .NET Project Types
-Overview of Project Types
-Console Applications
-Class Libraries
+1. .NET Project Types
+    - [Console Applications](./src/chapters/01_project_types/01_console_app/readme.md)
+    - [Class Libraries](./src/chapters/01_project_types/02_class_library/dummy_app/Program.cs)
 ASP.NET Core Web Applications
 Worker Services
 Windows Applications (WinForms, WPF)
