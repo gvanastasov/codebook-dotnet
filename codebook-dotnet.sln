@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_web_app", "src\chapters\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_worker_service", "src\chapters\01_project_types\04_worker_service\04_worker_service.csproj", "{A73A4B65-6F6F-45A0-B526-9A0BC9498366}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_windows_app", "src\chapters\01_project_types\05_windows_app\05_windows_app.csproj", "{114B3CD5-3E61-44AA-87C7-4D87AF13E512}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{A73A4B65-6F6F-45A0-B526-9A0BC9498366}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A73A4B65-6F6F-45A0-B526-9A0BC9498366}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A73A4B65-6F6F-45A0-B526-9A0BC9498366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{114B3CD5-3E61-44AA-87C7-4D87AF13E512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{114B3CD5-3E61-44AA-87C7-4D87AF13E512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{114B3CD5-3E61-44AA-87C7-4D87AF13E512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{114B3CD5-3E61-44AA-87C7-4D87AF13E512}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,5 +60,6 @@ Global
 		{FFF184EC-31E9-4A7A-91FA-F24158F8C6C0} = {1B73CA48-92D3-4CF2-B889-0FFFE761BF1E}
 		{5B8679DF-AB26-4F91-8868-35D8EADAF8AA} = {1B73CA48-92D3-4CF2-B889-0FFFE761BF1E}
 		{A73A4B65-6F6F-45A0-B526-9A0BC9498366} = {1B73CA48-92D3-4CF2-B889-0FFFE761BF1E}
+		{114B3CD5-3E61-44AA-87C7-4D87AF13E512} = {1B73CA48-92D3-4CF2-B889-0FFFE761BF1E}
 	EndGlobalSection
 EndGlobal

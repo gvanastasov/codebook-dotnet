@@ -5,7 +5,7 @@
     - [Class Libraries](./src/chapters/01_project_types/02_class_library/readme.md)
     - [ASP.NET Core Web Applications](./src/chapters/01_project_types/03_web_app/readme.md)
     - [Worker Services](./src/chapters/01_project_types/04_worker_service/readme.md)
-Windows Applications (WinForms, WPF)
+    - [Windows Applications (WinForms, WPF)](./src/chapters/01_project_types/05_windows_app/readme.md)
 Blazor Applications
 .NET MAUI (Cross-platform)
 
