@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_console_app", "src\chapt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_class_library", "src\chapters\01_project_types\02_class_library\dummy_app\02_class_library.csproj", "{FFF184EC-31E9-4A7A-91FA-F24158F8C6C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_web_app", "src\chapters\01_project_types\03_web_app\03_web_app.csproj", "{5B8679DF-AB26-4F91-8868-35D8EADAF8AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_worker_service", "src\chapters\01_project_types\04_worker_service\04_worker_service.csproj", "{A73A4B65-6F6F-45A0-B526-9A0BC9498366}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,14 @@ Global
 		{FFF184EC-31E9-4A7A-91FA-F24158F8C6C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFF184EC-31E9-4A7A-91FA-F24158F8C6C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFF184EC-31E9-4A7A-91FA-F24158F8C6C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B8679DF-AB26-4F91-8868-35D8EADAF8AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B8679DF-AB26-4F91-8868-35D8EADAF8AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B8679DF-AB26-4F91-8868-35D8EADAF8AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B8679DF-AB26-4F91-8868-35D8EADAF8AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A73A4B65-6F6F-45A0-B526-9A0BC9498366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A73A4B65-6F6F-45A0-B526-9A0BC9498366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A73A4B65-6F6F-45A0-B526-9A0BC9498366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A73A4B65-6F6F-45A0-B526-9A0BC9498366}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,5 +52,7 @@ Global
 		{1B73CA48-92D3-4CF2-B889-0FFFE761BF1E} = {5D22861C-4B54-4B6B-9D5C-F38894F69BB1}
 		{E44565DE-68B3-4462-8590-2FE3B73DBE87} = {1B73CA48-92D3-4CF2-B889-0FFFE761BF1E}
 		{FFF184EC-31E9-4A7A-91FA-F24158F8C6C0} = {1B73CA48-92D3-4CF2-B889-0FFFE761BF1E}
+		{5B8679DF-AB26-4F91-8868-35D8EADAF8AA} = {1B73CA48-92D3-4CF2-B889-0FFFE761BF1E}
+		{A73A4B65-6F6F-45A0-B526-9A0BC9498366} = {1B73CA48-92D3-4CF2-B889-0FFFE761BF1E}
 	EndGlobalSection
 EndGlobal
