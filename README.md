@@ -7,7 +7,7 @@
     - [Worker Services](./src/chapters/01_project_types/04_worker_service/readme.md)
     - [Windows Applications (WinForms, WPF)](./src/chapters/01_project_types/05_windows_app/readme.md)
     - [Blazor Applications](./src/chapters/01_project_types/06_blazor_app/readme.md)
-.NET MAUI (Cross-platform)
+    - [.NET MAUI (Cross-platform)](./src/chapters/01_project_types/07_maui/readme.md)
 
 Chapter 2: Dependency Injection (DI) in .NET
 Understanding DI Basics
