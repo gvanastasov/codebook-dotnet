@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "codebook", "src\codebook\co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_project_types", "01_project_types", "{1B73CA48-92D3-4CF2-B889-0FFFE761BF1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "console_app", "src\chapters\01_project_types\01_console_app\console_app.csproj", "{E44565DE-68B3-4462-8590-2FE3B73DBE87}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_console_app", "src\chapters\01_project_types\01_console_app\01_console_app.csproj", "{E44565DE-68B3-4462-8590-2FE3B73DBE87}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_class_library", "src\chapters\01_project_types\02_class_library\dummy_app\02_class_library.csproj", "{FFF184EC-31E9-4A7A-91FA-F24158F8C6C0}"
 EndProject
