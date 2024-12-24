@@ -9,7 +9,7 @@
     - [Blazor Applications](./src/chapters/01_project_types/06_blazor_app/readme.md)
     - [.NET MAUI (Cross-platform)](./src/chapters/01_project_types/07_maui/readme.md)
 2. Project Blocks
-    - [Dependency Injection (DI) in .NET](./src/chapters/02_project_blocks/01_dependency_injection/readme.md)
+    - [Dependency Injection (DI) in .NET](./src/chapters/02_project_blocks/01_dependency_injection/Program.cs)
     - [Middleware](./src/chapters/02_project_blocks/02_middleware/Program.cs)
 
 
