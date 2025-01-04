@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_dependency_injection", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_middleware", "src\chapters\02_project_configuration\02_middleware\02_middleware.csproj", "{44E1B653-B0B6-4FA8-A192-09562595D0BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_logging", "src\chapters\02_project_configuration\03_logging\03_logging.csproj", "{A0774ABA-C019-4285-8777-BAB3D2B602DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{44E1B653-B0B6-4FA8-A192-09562595D0BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44E1B653-B0B6-4FA8-A192-09562595D0BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44E1B653-B0B6-4FA8-A192-09562595D0BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0774ABA-C019-4285-8777-BAB3D2B602DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0774ABA-C019-4285-8777-BAB3D2B602DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0774ABA-C019-4285-8777-BAB3D2B602DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0774ABA-C019-4285-8777-BAB3D2B602DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,5 +98,6 @@ Global
 		{6230E8BC-BF39-4DE7-A283-3BE1B8F9866F} = {5D22861C-4B54-4B6B-9D5C-F38894F69BB1}
 		{16F332D2-F15D-4AC1-BCE1-4CA8FBCF55D0} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
 		{44E1B653-B0B6-4FA8-A192-09562595D0BD} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
+		{A0774ABA-C019-4285-8777-BAB3D2B602DB} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
 	EndGlobalSection
 EndGlobal

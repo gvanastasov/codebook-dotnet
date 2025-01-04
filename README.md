@@ -8,12 +8,11 @@
     - [Windows Applications (WinForms, WPF)](./src/chapters/01_project_types/05_windows_app/readme.md)
     - [Blazor Applications](./src/chapters/01_project_types/06_blazor_app/readme.md)
     - [.NET MAUI (Cross-platform)](./src/chapters/01_project_types/07_maui/readme.md)
-2. Project Blocks
+2. Project Configuration
     - [Dependency Injection (DI) in .NET](./src/chapters/02_project_blocks/01_dependency_injection/Program.cs)
     - [Middleware](./src/chapters/02_project_blocks/02_middleware/Program.cs)
+    - [Logging](./src/chapters/02_project_configuration/03_logging/Program.cs)
 
-
-Order of middleware execution.
 
 Chapter 4: RESTful APIs with ASP.NET Core
 Building a simple API with controllers.
