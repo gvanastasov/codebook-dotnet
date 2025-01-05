@@ -39,6 +39,10 @@
   - [Caching Configuration](./src/chapters/02_project_configuration/19_caching/Program.cs)
   - [Dependency Injection Scopes and Lifetimes](./src/chapters/02_project_configuration/20_di_scopes_lifetimes/Program.cs)
 
+- sources
+- data
+- ef
+
 ### 3. Routing
   - [Simple HTTP](./src/chapters/03_routing/01_simple_http/Program.cs)
   - [Route Parameters](./src/chapters/03_routing/02_route_params/Program.cs)
@@ -64,7 +68,7 @@
 ### 5. Access & Security
   - [Authentication Basics](./src/chapters/05_access/01_authentication/Program.cs)
   - [Authorization Basics](./src/chapters/05_access/02_authorization/Program.cs)
-  - [Using ASP.NET Core Identity for user management](./src/chapters/05_access/01_identity_management/Program.cs)
+  - [ASP.NET Core Identity and User Management](./src/chapters/05_access/03_core_identity/Program.cs)
   - [Role-based and policy-based authorization](./src/chapters/05_access/02_role_policy/Program.cs)
   - [Implementing OAuth2 and OpenID Connect with IdentityServer](./src/chapters/05_access/03_oauth2_openid/Program.cs)
   - [Using JWT (JSON Web Tokens) for stateless authentication](./src/chapters/05_access/04_jwt/Program.cs)

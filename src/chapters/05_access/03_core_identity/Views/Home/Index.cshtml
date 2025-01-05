@@ -1,0 +1,16 @@
+@{
+    ViewData["Title"] = "Home";
+}
+
+<h2>@ViewData["Message"]</h2>
+
+@if (User.Identity.IsAuthenticated)
+{
+    <form asp-controller="Account" asp-action="Logout" method="post">
+        <button type="submit">Logout</button>
+    </form>
+}
+else
+{
+    <a href="/Account/Login">Login</a> <text>|</text> <a href="/Account/Register">Register</a>
+}
