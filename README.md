@@ -1,129 +1,125 @@
 # codebook-dotnet
- 
-1. .NET Project Types
-    - [Console Applications](./src/chapters/01_project_types/01_console_app/readme.md)
-    - [Class Libraries](./src/chapters/01_project_types/02_class_library/readme.md)
-    - [ASP.NET Core Web Applications](./src/chapters/01_project_types/03_web_app/readme.md)
-    - [Worker Services](./src/chapters/01_project_types/04_worker_service/readme.md)
-    - [Windows Applications (WinForms, WPF)](./src/chapters/01_project_types/05_windows_app/readme.md)
-    - [Blazor Applications](./src/chapters/01_project_types/06_blazor_app/readme.md)
-    - [.NET MAUI (Cross-platform)](./src/chapters/01_project_types/07_maui/readme.md)
-2. Project Configuration
-    - [Dependency Injection (DI) in .NET](./src/chapters/02_project_blocks/01_dependency_injection/Program.cs)
-    - [Middleware](./src/chapters/02_project_blocks/02_middleware/Program.cs)
-    - [Logging](./src/chapters/02_project_configuration/03_logging/Program.cs)
 
+## Chapters
 
-Chapter 4: RESTful APIs with ASP.NET Core
-Building a simple API with controllers.
-Exploring minimal APIs.
-Adding Swagger for documentation.
+### 1. .NET Project Types
+  - [Console Applications](./src/chapters/01_project_types/01_console_app/readme.md)
+  - [Class Libraries](./src/chapters/01_project_types/02_class_library/readme.md)
+  - [ASP.NET Core Web Applications](./src/chapters/01_project_types/03_web_app/readme.md)
+  - [Worker Services](./src/chapters/01_project_types/04_worker_service/readme.md)
+  - [Windows Applications (WinForms, WPF)](./src/chapters/01_project_types/05_windows_app/readme.md)
+  - [Blazor Applications](./src/chapters/01_project_types/06_blazor_app/readme.md)
+  - [.NET MAUI (Cross-platform)](./src/chapters/01_project_types/07_maui/readme.md)
 
-Chapter 5: Blazor Basics
-Blazor Server vs Blazor WebAssembly
-Building a simple interactive web page.
-Component structure.
+  - [Azure Functions] todo
+  - [Razor Class Libraries] todo
+  - [Unit Test Projects] todo
+  - [Xamarin Applications] todo
+  - [API Projects (e.g., ASP.NET Core Web API)] todo
 
-Chapter 6: Entity Framework Core
-Code-first database creation.
-Querying and updating data.
-Handling migrations.
+### 2. Project Configuration
+  - [Dependency Injection (DI) in .NET](./src/chapters/02_project_blocks/01_dependency_injection/Program.cs)
+  - [Middleware](./src/chapters/02_project_blocks/02_middleware/Program.cs)
+  - [Logging](./src/chapters/02_project_configuration/03_logging/Program.cs)
+  - [App Settings](./src/chapters/02_project_configuration/04_appsettings/Program.cs)
+  - [User secrets](./src/chapters/02_project_configuration/05_user_secrets/Program.cs)
+  - [Configuration Providers](./src/chapters/02_project_configuration/06_configuration_providers/Program.cs)
+  - [Environment Configuration](./src/chapters/02_project_configuration/07_environment_configuration/Program.cs)
+  - [Feature Toggles/Flags](./src/chapters/02_project_configuration/08_feature_toggles/Program.cs)
+  - [Localization](./src/chapters/02_project_configuration/09_localization/Program.cs)
+  - [Authentication & Authorization](./src/chapters/02_project_configuration/10_authentication_authorization/Program.cs)
+  - [Health Checks](./src/chapters/02_project_configuration/11_health_checks/Program.cs)
+  - [CORS (Cross-Origin Resource Sharing)](./src/chapters/02_project_configuration/12_cors/Program.cs)
+  - [Session and Cookies Configuration](./src/chapters/02_project_configuration/13_session_cookies/Program.cs)
+  - [Database Configuration](./src/chapters/02_project_configuration/14_database_configuration/Program.cs)
+  - [Background Services](./src/chapters/02_project_configuration/15_background_services/Program.cs)
+  - [Custom Middleware Configuration](./src/chapters/02_project_configuration/16_custom_middleware/Program.cs)
+  - [Application Insights and Monitoring](./src/chapters/02_project_configuration/17_application_insights/Program.cs)
+  - [Application Secrets Management](./src/chapters/02_project_configuration/18_secrets_management/Program.cs)
+  - [Caching Configuration](./src/chapters/02_project_configuration/19_caching/Program.cs)
+  - [Dependency Injection Scopes and Lifetimes](./src/chapters/02_project_configuration/20_di_scopes_lifetimes/Program.cs)
 
-Chapter 7: Cross-Platform Development with .NET MAUI
-Setting up a cross-platform app.
-Adding a simple UI.
-Handling navigation.
+### 3. Routing
+  - [Simple HTTP](./src/chapters/03_routing/01_simple_http/Program.cs)
+  - [Route Parameters](./src/chapters/03_routing/02_route_params/Program.cs)
+  - [Query Parameters](./src/chapters/03_routing/03_query_params/Program.cs)
+  - [Fallback Route](./src/chapters/03_routing/04_fallback_route/Program.cs)
+  - [Route Constraints](./src/chapters/03_routing/05_route_constraints/Program.cs)
+  - [Route Wildcards](./src/chapters/03_routing/06_wildcards/Program.cs)
+  - [Attribute Routing](./src/chapters/03_routing/07_attribute_routing/Program.cs)
+  - [Razor Pages](./src/chapters/03_routing/08_razor_pages/Program.cs)
+  - [Controllers](./src/chapters/03_routing/09_controllers/Program.cs)
+  - [MVC](./src/chapters/03_routing/10_mvc/Program.cs)
+  - [SPA](./src/chapters/03_routing/11_spa/Program.cs)
+  - [Route Prioritization and Order](./src/chapters/03_routing/12_route_order/Program.cs)
+  - [Route Matching and Performance](./src/chapters/03_routing/13_route_matching/Program.cs)
+  - [Route Filters](./src/chapters/03_routing/14_route_filters/Program.cs)
+  - [Custom Route Matching](./src/chapters/03_routing/15_custom_matching/Program.cs)
+  - [Parameter Binding and Model Binding](./src/chapters/03_routing/16_model_binding/Program.cs)
+  - [Route Data and Route Values](./src/chapters/03_routing/17_route_data/Program.cs)
 
-Chapter 8: Unit Testing in .NET
-Using xUnit for testing.
-Mocking dependencies.
-Writing integration tests.
+### 4. Real-Time Communication & SignalR
+- [Setting up a basic SignalR hub](./src/chapters/04_signalr/01_hub/Program.cs)
 
-Additional Chapters
-Chapter 9: Advanced Configuration and Options
-Centralized configuration in .NET using appsettings.json.
-Binding configuration to strongly-typed objects.
-Using environment variables and secrets for sensitive data.
+### 5. Authentication, Authorization & Security
+- [Authentication and Authorization Basics](./src/chapters/07_authentication/01_basics/Program.cs)
+  - [Using ASP.NET Core Identity for user management](./src/chapters/07_authentication/01_identity_management/Program.cs)
+  - [Role-based and policy-based authorization](./src/chapters/07_authentication/02_role_policy/Program.cs)
+  - [Implementing OAuth2 and OpenID Connect with IdentityServer](./src/chapters/07_authentication/03_oauth2_openid/Program.cs)
+  - [Using JWT (JSON Web Tokens) for stateless authentication](./src/chapters/07_authentication/04_jwt/Program.cs)
 
-Chapter 10: Logging in .NET
-Built-in logging providers (Console, File, Debug).
-Structured logging with Serilog or NLog.
-Configuring logging levels and scopes.
-Writing custom logging providers.
+- [Security Best Practices](./src/chapters/07_security/01_security_best_practices/Program.cs)
+  - [HTTPS enforcement](./src/chapters/07_security/02_https_enforcement/Program.cs)
+  - [Cross-Site Request Forgery (CSRF) protection](./src/chapters/07_security/03_csrf_protection/Program.cs)
+  - [Cross-Origin Resource Sharing (CORS)](./src/chapters/07_security/04_cors/Program.cs)
+  - [Input validation and preventing SQL Injection](./src/chapters/07_security/05_sql_injection/Program.cs)
+  - [Securing APIs against common vulnerabilities (OWASP Top 10)](./src/chapters/07_security/06_owasp/Program.cs)
 
-Chapter 11: Authentication and Authorization
-Using ASP.NET Core Identity for user management.
-Role-based and policy-based authorization.
-Implementing OAuth2 and OpenID Connect with IdentityServer.
-Using JWT (JSON Web Tokens) for stateless authentication.
+### 6. Performance & Caching
+- [Caching Strategies](./src/chapters/08_caching/01_caching/Program.cs)
+  - [In-memory caching](./src/chapters/08_caching/02_in_memory_caching/Program.cs)
+  - [Distributed caching (e.g., Redis)](./src/chapters/08_caching/03_distributed_caching/Program.cs)
+  - [Response caching](./src/chapters/08_caching/04_response_caching/Program.cs)
 
-Chapter 12: Real-Time Communication
-Introduction to SignalR for real-time applications.
-Setting up a basic SignalR hub.
-Integrating SignalR with client-side Blazor or JavaScript.
+- [Performance Optimization](./src/chapters/08_performance/01_performance_optimization/Program.cs)
+  - [Response compression](./src/chapters/08_performance/02_response_compression/Program.cs)
+  - [Minification of static files](./src/chapters/08_performance/03_minification/Program.cs)
+  - [Profiling and diagnostics](./src/chapters/08_performance/04_profiling/Program.cs)
 
-Chapter 13: Globalization and Localization
-Adding multi-language support in .NET applications.
-Working with resource files.
-Localizing dates, numbers, and currencies.
+### 7. Background Tasks & Event-driven Architectures
+- [Background Tasks and Scheduling](./src/chapters/09_background_tasks/01_background_tasks/Program.cs)
+  - [Using IHostedService for background tasks](./src/chapters/09_background_tasks/02_ihostedservice/Program.cs)
+  - [Setting up recurring tasks with Quartz.NET](./src/chapters/09_background_tasks/03_quartz_tasks/Program.cs)
+  - [Handling long-running processes with Workers](./src/chapters/09_background_tasks/04_workers/Program.cs)
 
-Chapter 14: Working with gRPC
-Understanding gRPC and its use cases.
-Creating a gRPC service in .NET.
-Implementing client and server communication.
+- [Message Queues and Event-Driven Systems](./src/chapters/10_message_queues/01_message_queues/Program.cs)
+  - [Integrating with RabbitMQ or Azure Service Bus](./src/chapters/10_message_queues/02_rabbitmq_azure/Program.cs)
+  - [Using .NET libraries for message queuing](./src/chapters/10_message_queues/03_message_queuing_libraries/Program.cs)
+  - [Implementing pub/sub models in microservices](./src/chapters/10_message_queues/04_pub_sub/Program.cs)
 
-Chapter 15: Background Tasks and Scheduling
-Using IHostedService for background tasks.
-Setting up recurring tasks with Quartz.NET.
-Handling long-running processes with Workers.
+### 8. Testing & Debugging
+- [Unit Testing and Integration Testing](./src/chapters/11_testing/01_unit_testing/Program.cs)
+  - [Using xUnit for testing](./src/chapters/11_testing/02_xunit/Program.cs)
+  - [Mocking dependencies](./src/chapters/11_testing/03_mocking/Program.cs)
+  - [Writing integration tests](./src/chapters/11_testing/04_integration_tests/Program.cs)
 
-Chapter 16: Message Queues and Event-Driven Architectures
-Integrating with RabbitMQ or Azure Service Bus.
-Using .NET libraries for message queuing.
-Implementing pub/sub models in microservices.
+- [Debugging and Diagnostics](./src/chapters/12_debugging/01_debugging_tools/Program.cs)
+  - [Using Visual Studio and Rider debugging tools](./src/chapters/12_debugging/02_vs_rider/Program.cs)
+  - [Logging and tracing with Application Insights](./src/chapters/12_debugging/03_application_insights/Program.cs)
+  - [Diagnosing performance issues with dotnet-trace and PerfView](./src/chapters/12_debugging/04_performance_diagnostics/Program.cs)
 
-Chapter 17: Secure Coding Practices
-Input validation and preventing SQL Injection.
-Securing APIs against common vulnerabilities (OWASP Top 10).
-Protecting sensitive data with encryption.
+### 9. Cloud, Microservices, and Deployment
+- [Cloud Integration](./src/chapters/13_cloud_integration/01_cloud/Program.cs)
+  - [Hosting .NET apps on Azure or AWS](./src/chapters/13_cloud_integration/02_azure_aws/Program.cs)
+  - [Using Azure Functions for serverless applications](./src/chapters/13_cloud_integration/03_azure_functions/Program.cs)
+  - [Integrating cloud storage (Blob Storage, S3) with .NET](./src/chapters/13_cloud_integration/04_cloud_storage/Program.cs)
 
-Chapter 18: Performance Optimization
-Using tools like BenchmarkDotNet for profiling.
-Optimizing memory usage and garbage collection.
-Caching strategies for high-performance applications.
+- [Microservices and Distributed Systems](./src/chapters/14_microservices/01_microservices_intro/Program.cs)
+  - [Introduction to microservices architecture](./src/chapters/14_microservices/02_intro/Program.cs)
+  - [Setting up API Gateway with Ocelot](./src/chapters/14_microservices/03_ocelot_gateway/Program.cs)
+  - [Managing communication between services (HTTP, gRPC, and messaging)](./src/chapters/14_microservices/04_communication/Program.cs)
+  - [Service discovery and configuration with Consul or Kubernetes](./src/chapters/14_microservices/05_service_discovery/Program.cs)
 
-Chapter 19: Cloud Integration
-Hosting .NET apps on Azure or AWS.
-Using Azure Functions for serverless applications.
-Integrating cloud storage (Blob Storage, S3) with .NET.
-
-Chapter 20: Microservices and Distributed Systems
-Introduction to microservices architecture.
-Setting up API Gateway with Ocelot.
-Managing communication between services (HTTP, gRPC, and messaging).
-Service discovery and configuration with Consul or Kubernetes.
-
-Chapter 21: Deployment and CI/CD
-Packaging .NET applications for deployment.
-Creating Docker images for .NET applications.
-Setting up CI/CD pipelines with GitHub Actions or Azure DevOps.
-
-Chapter 22: Debugging and Diagnostics
-Using Visual Studio and Rider debugging tools.
-Logging and tracing with Application Insights.
-Diagnosing performance issues with dotnet-trace and PerfView.
-
-Chapter 23: Exploring .NET Ecosystem Tools
-Third-party libraries for .NET (e.g., Dapper, MediatR, Polly).
-Extending the .NET CLI with custom tools.
-Exploring Visual Studio extensions for productivity.
-
-Chapter 24: Versioning and Backward Compatibility
-Handling versioning in APIs.
-Using compatibility packs in .NET.
-Strategies for maintaining legacy applications.
-
-Chapter 25: Practical Tips and Best Practices
-Structuring .NET solutions for maintainability.
-Best practices for exception handling and error reporting.
-Writing clean and testable .NET code.
+- [Deployment and CI/CD](./src/chapters/15_deployment/01_ci_cd/Program.cs)
+  - [Creating Docker images for .NET applications](./src/chapters/15_deployment/02_docker/Program.cs)
+  - [Setting up CI/CD pipelines with GitHub Actions or Azure DevOps](./src/chapters/15_deployment/03_cicd/Program.cs)
