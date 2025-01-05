@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_route_params", "src\chap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_query_params", "src\chapters\03_routing\03_query_params\03_query_params.csproj", "{7A06BB6C-88B9-451A-A043-8075CB5278D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_fallback_route", "src\chapters\03_routing\04_fallback_route\04_fallback_route.csproj", "{8478C90F-D58F-4D61-A60D-28C57FE98E0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +115,10 @@ Global
 		{7A06BB6C-88B9-451A-A043-8075CB5278D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A06BB6C-88B9-451A-A043-8075CB5278D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A06BB6C-88B9-451A-A043-8075CB5278D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8478C90F-D58F-4D61-A60D-28C57FE98E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8478C90F-D58F-4D61-A60D-28C57FE98E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8478C90F-D58F-4D61-A60D-28C57FE98E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8478C90F-D58F-4D61-A60D-28C57FE98E0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -137,5 +143,6 @@ Global
 		{D7FA2992-B27E-46B9-B5D5-FDDA6AC4E7B4} = {A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}
 		{41384034-D448-4722-9E95-0E9286504FEB} = {A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}
 		{7A06BB6C-88B9-451A-A043-8075CB5278D5} = {A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}
+		{8478C90F-D58F-4D61-A60D-28C57FE98E0C} = {A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}
 	EndGlobalSection
 EndGlobal
