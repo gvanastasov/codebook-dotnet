@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_appsettings", "src\chapt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_user_secrets", "src\chapters\02_project_configuration\05_user_secrets\05_user_secrets.csproj", "{66DDD42E-6DE0-4598-80DC-583DEC085E38}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_routing", "03_routing", "{A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_simple_http", "src\chapters\03_routing\01_simple_http\01_simple_http.csproj", "{D7FA2992-B27E-46B9-B5D5-FDDA6AC4E7B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,10 @@ Global
 		{66DDD42E-6DE0-4598-80DC-583DEC085E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66DDD42E-6DE0-4598-80DC-583DEC085E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66DDD42E-6DE0-4598-80DC-583DEC085E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7FA2992-B27E-46B9-B5D5-FDDA6AC4E7B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7FA2992-B27E-46B9-B5D5-FDDA6AC4E7B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7FA2992-B27E-46B9-B5D5-FDDA6AC4E7B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7FA2992-B27E-46B9-B5D5-FDDA6AC4E7B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -113,5 +121,7 @@ Global
 		{A0774ABA-C019-4285-8777-BAB3D2B602DB} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
 		{C0EC5ACC-08B9-43ED-929D-74307E92951E} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
 		{66DDD42E-6DE0-4598-80DC-583DEC085E38} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
+		{A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5} = {5D22861C-4B54-4B6B-9D5C-F38894F69BB1}
+		{D7FA2992-B27E-46B9-B5D5-FDDA6AC4E7B4} = {A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}
 	EndGlobalSection
 EndGlobal
