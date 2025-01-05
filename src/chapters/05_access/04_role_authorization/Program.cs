@@ -65,7 +65,7 @@ namespace AuthorizationBasics
         }
     }
 
-    // Example Controller: Demonstrates role-based and policy-based authorization.
+    // Example Controller: Demonstrates role-based authorization.
     public class HomeController : Controller
     {
         [HttpGet("/")]
