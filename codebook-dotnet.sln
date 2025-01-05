@@ -83,6 +83,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_authorization", "src\cha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_core_identity", "src\chapters\05_access\03_core_identity\03_core_identity.csproj", "{CD45C581-8CFB-40EF-9B0E-77E9AF3F556D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_role_authorization", "src\chapters\05_access\04_role_authorization\04_role_authorization.csproj", "{E82EBD80-B8CA-4F92-AB46-E8791DCEDC63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +227,10 @@ Global
 		{CD45C581-8CFB-40EF-9B0E-77E9AF3F556D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD45C581-8CFB-40EF-9B0E-77E9AF3F556D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD45C581-8CFB-40EF-9B0E-77E9AF3F556D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E82EBD80-B8CA-4F92-AB46-E8791DCEDC63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E82EBD80-B8CA-4F92-AB46-E8791DCEDC63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E82EBD80-B8CA-4F92-AB46-E8791DCEDC63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E82EBD80-B8CA-4F92-AB46-E8791DCEDC63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -269,5 +275,6 @@ Global
 		{20342E53-4E40-4777-9A8E-86C137394BC1} = {E7F166F1-DB74-4FC2-AA41-6C829BF4B969}
 		{2A5365C3-9BC8-48A2-8882-015B94DE4143} = {E7F166F1-DB74-4FC2-AA41-6C829BF4B969}
 		{CD45C581-8CFB-40EF-9B0E-77E9AF3F556D} = {E7F166F1-DB74-4FC2-AA41-6C829BF4B969}
+		{E82EBD80-B8CA-4F92-AB46-E8791DCEDC63} = {E7F166F1-DB74-4FC2-AA41-6C829BF4B969}
 	EndGlobalSection
 EndGlobal

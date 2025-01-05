@@ -69,7 +69,8 @@
   - [Authentication Basics](./src/chapters/05_access/01_authentication/Program.cs)
   - [Authorization Basics](./src/chapters/05_access/02_authorization/Program.cs)
   - [ASP.NET Core Identity and User Management](./src/chapters/05_access/03_core_identity/Program.cs)
-  - [Role-based and policy-based authorization](./src/chapters/05_access/02_role_policy/Program.cs)
+  - [Role-based authorization](./src/chapters/05_access/04_role_authorization/Program.cs)
+  - [Policy-based authorization]
   - [Implementing OAuth2 and OpenID Connect with IdentityServer](./src/chapters/05_access/03_oauth2_openid/Program.cs)
   - [Using JWT (JSON Web Tokens) for stateless authentication](./src/chapters/05_access/04_jwt/Program.cs)
 
