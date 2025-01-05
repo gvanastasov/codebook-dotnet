@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_route_constraints", "src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_wildcards", "src\chapters\03_routing\06_wildcards\06_wildcards.csproj", "{ACF5D7FB-1BEA-4C88-9637-3B31E2845EAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_attribute_routing", "src\chapters\03_routing\07_attribute_routing\07_attribute_routing.csproj", "{652AB778-43BE-470E-B629-1D7A97B1B8CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -131,6 +133,10 @@ Global
 		{ACF5D7FB-1BEA-4C88-9637-3B31E2845EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACF5D7FB-1BEA-4C88-9637-3B31E2845EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACF5D7FB-1BEA-4C88-9637-3B31E2845EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{652AB778-43BE-470E-B629-1D7A97B1B8CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{652AB778-43BE-470E-B629-1D7A97B1B8CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{652AB778-43BE-470E-B629-1D7A97B1B8CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{652AB778-43BE-470E-B629-1D7A97B1B8CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -158,5 +164,6 @@ Global
 		{8478C90F-D58F-4D61-A60D-28C57FE98E0C} = {A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}
 		{2D7A7154-AC4F-4734-BE11-D99936FDAF9E} = {A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}
 		{ACF5D7FB-1BEA-4C88-9637-3B31E2845EAC} = {A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}
+		{652AB778-43BE-470E-B629-1D7A97B1B8CB} = {A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}
 	EndGlobalSection
 EndGlobal
