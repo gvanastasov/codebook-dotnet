@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_route_order", "src\chapt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_route_matching", "src\chapters\03_routing\13_route_matching\13_route_matching.csproj", "{029A3A78-A08A-405F-9B30-97698D2F5849}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_route_filters", "src\chapters\03_routing\14_route_filters\14_route_filters.csproj", "{D4D6E1D2-9E9B-42CA-83B6-145F3840AB2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -173,6 +175,10 @@ Global
 		{029A3A78-A08A-405F-9B30-97698D2F5849}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{029A3A78-A08A-405F-9B30-97698D2F5849}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{029A3A78-A08A-405F-9B30-97698D2F5849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D6E1D2-9E9B-42CA-83B6-145F3840AB2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D6E1D2-9E9B-42CA-83B6-145F3840AB2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D6E1D2-9E9B-42CA-83B6-145F3840AB2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D6E1D2-9E9B-42CA-83B6-145F3840AB2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -207,5 +213,6 @@ Global
 		{700481D3-E50D-4C8B-80E3-0E0C9E02841E} = {A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}
 		{CA22247D-DF6C-4087-82B0-5821E60C6A7F} = {A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}
 		{029A3A78-A08A-405F-9B30-97698D2F5849} = {A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}
+		{D4D6E1D2-9E9B-42CA-83B6-145F3840AB2D} = {A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}
 	EndGlobalSection
 EndGlobal
