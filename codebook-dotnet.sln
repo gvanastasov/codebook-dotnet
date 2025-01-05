@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_logging", "src\chapters\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_appsettings", "src\chapters\02_project_configuration\04_appsettings\04_appsettings.csproj", "{C0EC5ACC-08B9-43ED-929D-74307E92951E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_user_secrets", "src\chapters\02_project_configuration\05_user_secrets\05_user_secrets.csproj", "{66DDD42E-6DE0-4598-80DC-583DEC085E38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{C0EC5ACC-08B9-43ED-929D-74307E92951E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0EC5ACC-08B9-43ED-929D-74307E92951E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0EC5ACC-08B9-43ED-929D-74307E92951E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66DDD42E-6DE0-4598-80DC-583DEC085E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66DDD42E-6DE0-4598-80DC-583DEC085E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66DDD42E-6DE0-4598-80DC-583DEC085E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66DDD42E-6DE0-4598-80DC-583DEC085E38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,5 +112,6 @@ Global
 		{44E1B653-B0B6-4FA8-A192-09562595D0BD} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
 		{A0774ABA-C019-4285-8777-BAB3D2B602DB} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
 		{C0EC5ACC-08B9-43ED-929D-74307E92951E} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
+		{66DDD42E-6DE0-4598-80DC-583DEC085E38} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
 	EndGlobalSection
 EndGlobal
