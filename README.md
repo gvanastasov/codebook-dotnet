@@ -63,6 +63,7 @@
 
 ### 5. Access & Security
   - [Authentication Basics](./src/chapters/05_access/01_authentication/Program.cs)
+  - [Authorization Basics](./src/chapters/05_access/02_authorization/Program.cs)
   - [Using ASP.NET Core Identity for user management](./src/chapters/05_access/01_identity_management/Program.cs)
   - [Role-based and policy-based authorization](./src/chapters/05_access/02_role_policy/Program.cs)
   - [Implementing OAuth2 and OpenID Connect with IdentityServer](./src/chapters/05_access/03_oauth2_openid/Program.cs)
