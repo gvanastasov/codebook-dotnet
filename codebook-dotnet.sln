@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_route_filters", "src\cha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_custom_matching", "src\chapters\03_routing\15_custom_matching\15_custom_matching.csproj", "{D444B129-6612-4C9C-A815-70D06B386AAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_model_binding", "src\chapters\03_routing\16_model_binding\16_model_binding.csproj", "{D2979399-2A6C-4D35-9370-9EBB8C9E9F46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -185,6 +187,10 @@ Global
 		{D444B129-6612-4C9C-A815-70D06B386AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D444B129-6612-4C9C-A815-70D06B386AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D444B129-6612-4C9C-A815-70D06B386AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2979399-2A6C-4D35-9370-9EBB8C9E9F46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2979399-2A6C-4D35-9370-9EBB8C9E9F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2979399-2A6C-4D35-9370-9EBB8C9E9F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2979399-2A6C-4D35-9370-9EBB8C9E9F46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -221,5 +227,6 @@ Global
 		{029A3A78-A08A-405F-9B30-97698D2F5849} = {A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}
 		{D4D6E1D2-9E9B-42CA-83B6-145F3840AB2D} = {A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}
 		{D444B129-6612-4C9C-A815-70D06B386AAF} = {A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}
+		{D2979399-2A6C-4D35-9370-9EBB8C9E9F46} = {A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}
 	EndGlobalSection
 EndGlobal
