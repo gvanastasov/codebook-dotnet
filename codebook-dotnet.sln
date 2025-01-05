@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_wildcards", "src\chapter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_attribute_routing", "src\chapters\03_routing\07_attribute_routing\07_attribute_routing.csproj", "{652AB778-43BE-470E-B629-1D7A97B1B8CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_razor_pages", "src\chapters\03_routing\08_razor_pages\08_razor_pages.csproj", "{DE3DB302-B0F0-4945-AE1C-3734D63BDEDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +139,10 @@ Global
 		{652AB778-43BE-470E-B629-1D7A97B1B8CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{652AB778-43BE-470E-B629-1D7A97B1B8CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{652AB778-43BE-470E-B629-1D7A97B1B8CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE3DB302-B0F0-4945-AE1C-3734D63BDEDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3DB302-B0F0-4945-AE1C-3734D63BDEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE3DB302-B0F0-4945-AE1C-3734D63BDEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE3DB302-B0F0-4945-AE1C-3734D63BDEDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -165,5 +171,6 @@ Global
 		{2D7A7154-AC4F-4734-BE11-D99936FDAF9E} = {A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}
 		{ACF5D7FB-1BEA-4C88-9637-3B31E2845EAC} = {A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}
 		{652AB778-43BE-470E-B629-1D7A97B1B8CB} = {A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}
+		{DE3DB302-B0F0-4945-AE1C-3734D63BDEDD} = {A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}
 	EndGlobalSection
 EndGlobal
