@@ -33,6 +33,8 @@ namespace SimpleHttpRouting
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            // Basic routing in ASP.NET Core involves setting up middleware to handle incoming HTTP requests.
+            // The `UseRouting` middleware enables the routing system, and `UseEndpoints` defines specific endpoints.
             app.UseRouting();
 
             // Explanation:
