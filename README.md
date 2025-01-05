@@ -59,14 +59,14 @@
   - [Route Data and Route Values](./src/chapters/03_routing/17_route_data/Program.cs)
 
 ### 4. Real-Time Communication & SignalR
-- [Setting up a basic SignalR hub](./src/chapters/04_signalr/01_hub/Program.cs)
+  - [Setting up a basic SignalR hub](./src/chapters/04_signalr/01_hub/Program.cs)
 
-### 5. Authentication, Authorization & Security
-- [Authentication and Authorization Basics](./src/chapters/07_authentication/01_basics/Program.cs)
-  - [Using ASP.NET Core Identity for user management](./src/chapters/07_authentication/01_identity_management/Program.cs)
-  - [Role-based and policy-based authorization](./src/chapters/07_authentication/02_role_policy/Program.cs)
-  - [Implementing OAuth2 and OpenID Connect with IdentityServer](./src/chapters/07_authentication/03_oauth2_openid/Program.cs)
-  - [Using JWT (JSON Web Tokens) for stateless authentication](./src/chapters/07_authentication/04_jwt/Program.cs)
+### 5. Access & Security
+  - [Authentication Basics](./src/chapters/05_access/01_authentication/Program.cs)
+  - [Using ASP.NET Core Identity for user management](./src/chapters/05_access/01_identity_management/Program.cs)
+  - [Role-based and policy-based authorization](./src/chapters/05_access/02_role_policy/Program.cs)
+  - [Implementing OAuth2 and OpenID Connect with IdentityServer](./src/chapters/05_access/03_oauth2_openid/Program.cs)
+  - [Using JWT (JSON Web Tokens) for stateless authentication](./src/chapters/05_access/04_jwt/Program.cs)
 
 - [Security Best Practices](./src/chapters/07_security/01_security_best_practices/Program.cs)
   - [HTTPS enforcement](./src/chapters/07_security/02_https_enforcement/Program.cs)
