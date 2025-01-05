@@ -67,9 +67,9 @@ namespace RouteFiltersExample
     }
 
     // Custom route filter implementation
-    public class CustomRouteFilter : IRouteFilter
+    public class CustomRouteFilter : IAsyncActionFilter
     {
-        public Task OnRouteAsync(RouteContext context)
+        public Task OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next)
         {
             // Before the route handler executes, we can perform custom logic
             // For example, you can modify route values, inspect requests, or perform logging.
