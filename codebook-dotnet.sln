@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_attribute_routing", "src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_razor_pages", "src\chapters\03_routing\08_razor_pages\08_razor_pages.csproj", "{DE3DB302-B0F0-4945-AE1C-3734D63BDEDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_controllers", "src\chapters\03_routing\09_controllers\09_controllers.csproj", "{CCFFB969-B1B2-4FBC-BECC-27A5194EF4C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -143,6 +145,10 @@ Global
 		{DE3DB302-B0F0-4945-AE1C-3734D63BDEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE3DB302-B0F0-4945-AE1C-3734D63BDEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE3DB302-B0F0-4945-AE1C-3734D63BDEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCFFB969-B1B2-4FBC-BECC-27A5194EF4C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCFFB969-B1B2-4FBC-BECC-27A5194EF4C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCFFB969-B1B2-4FBC-BECC-27A5194EF4C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCFFB969-B1B2-4FBC-BECC-27A5194EF4C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -172,5 +178,6 @@ Global
 		{ACF5D7FB-1BEA-4C88-9637-3B31E2845EAC} = {A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}
 		{652AB778-43BE-470E-B629-1D7A97B1B8CB} = {A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}
 		{DE3DB302-B0F0-4945-AE1C-3734D63BDEDD} = {A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}
+		{CCFFB969-B1B2-4FBC-BECC-27A5194EF4C8} = {A34A6EC9-513E-41DE-AF3F-6A6AA7EB31D5}
 	EndGlobalSection
 EndGlobal
