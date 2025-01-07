@@ -9,6 +9,12 @@
             "type": "dotnet",
             "request": "launch",
             "projectPath": "${workspaceFolder}/src/chapters/05_access/03_core_identity/03_core_identity.csproj"
+        },
+        {
+            "name": "C#: 06_identity_server Debug",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/src/chapters/05_access/06_identity_server/06_identity_server.csproj"
         }
     ]
 }
