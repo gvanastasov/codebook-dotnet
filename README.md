@@ -62,10 +62,12 @@
   - [Parameter Binding and Model Binding](./src/chapters/03_routing/16_model_binding/Program.cs)
   - [Route Data and Route Values](./src/chapters/03_routing/17_route_data/Program.cs)
 
+- static files
+
 ### 4. Real-Time Communication & SignalR
   - [Setting up a basic SignalR hub](./src/chapters/04_signalr/01_hub/Program.cs)
 
-### 5. Access & Security
+### 5. Access
   - [Authentication Basics](./src/chapters/05_access/01_authentication/Program.cs)
   - [Authorization Basics](./src/chapters/05_access/02_authorization/Program.cs)
   - [ASP.NET Core Identity and User Management](./src/chapters/05_access/03_core_identity/Program.cs)
@@ -74,12 +76,12 @@
   - [Implementing OAuth2 and OpenID Connect with IdentityServer](./src/chapters/05_access/06_identity_server/Program.cs)
   - [Using JWT (JSON Web Tokens) for stateless authentication](./src/chapters/05_access/07_jwt/Program.cs)
 
-- [Security Best Practices](./src/chapters/07_security/01_security_best_practices/Program.cs)
-  - [HTTPS enforcement](./src/chapters/07_security/02_https_enforcement/Program.cs)
-  - [Cross-Site Request Forgery (CSRF) protection](./src/chapters/07_security/03_csrf_protection/Program.cs)
-  - [Cross-Origin Resource Sharing (CORS)](./src/chapters/07_security/04_cors/Program.cs)
-  - [Input validation and preventing SQL Injection](./src/chapters/07_security/05_sql_injection/Program.cs)
-  - [Securing APIs against common vulnerabilities (OWASP Top 10)](./src/chapters/07_security/06_owasp/Program.cs)
+### Security
+  - [HTTPS enforcement](./src/chapters/06_security/01_https/Program.cs)
+  - [Cross-Site Request Forgery (CSRF) protection](./src/chapters/06_security/03_csrf_protection/Program.cs)
+  - [Cross-Origin Resource Sharing (CORS)](./src/chapters/06_security/04_cors/Program.cs)
+  - [Input validation and preventing SQL Injection](./src/chapters/06_security/05_sql_injection/Program.cs)
+  - [Securing APIs against common vulnerabilities (OWASP Top 10)](./src/chapters/06_security/06_owasp/Program.cs)
 
 ### 6. Performance & Caching
 - [Caching Strategies](./src/chapters/08_caching/01_caching/Program.cs)
