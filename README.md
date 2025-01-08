@@ -11,6 +11,7 @@
   - [Blazor Applications](./src/chapters/01_project_types/06_blazor_app/readme.md)
   - [.NET MAUI (Cross-platform)](./src/chapters/01_project_types/07_maui/readme.md)
 
+  - empty
   - [Azure Functions] todo
   - [Razor Class Libraries] todo
   - [Unit Test Projects] todo
@@ -78,7 +79,7 @@
 
 ### Security
   - [HTTPS enforcement](./src/chapters/06_security/01_https/Program.cs)
-  - [Cross-Site Request Forgery (CSRF) protection](./src/chapters/06_security/03_csrf_protection/Program.cs)
+  - [Cross-Site Request Forgery (CSRF) protection](./src/chapters/06_security/02_csrf_protection/Program.cs)
   - [Cross-Origin Resource Sharing (CORS)](./src/chapters/06_security/04_cors/Program.cs)
   - [Input validation and preventing SQL Injection](./src/chapters/06_security/05_sql_injection/Program.cs)
   - [Securing APIs against common vulnerabilities (OWASP Top 10)](./src/chapters/06_security/06_owasp/Program.cs)
