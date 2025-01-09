@@ -1,0 +1,87 @@
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CORS Test</title>
+    <style>
+        .result {
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        .success {
+            background-color: lightgreen;
+        }
+        .error {
+            background-color: lightcoral;
+        }
+        .column {
+            float: left;
+            width: 30%;
+            padding: 10px;
+        }
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <a href="http://localhost:5147">HTTP</a> - SameOrigin policy from all endpoints
+    </div>
+    <div>
+        <a href="https://localhost:7224">HTTPS</a> - no policy configured apart from Same Origin (AllowedAll) 
+    </div>
+    <div class="row">
+        <div class="column">
+            <h3>Public Data</h3>
+            <div id="publicDataResult" class="result"></div>
+        </div>
+        <div class="column">
+            <h3>Restricted Data</h3>
+            <div id="restrictedDataResult" class="result"></div>
+        </div>
+        <div class="column">
+            <h3>Dynamic Origin</h3>
+            <div id="dynamicOriginResult" class="result"></div>
+        </div>
+    </div>
+    <script>
+        function displayResult(elementId, message, isSuccess) {
+            const element = document.getElementById(elementId);
+            element.textContent = message;
+            element.className = 'result ' + (isSuccess ? 'success' : 'error');
+        }
+
+        fetch('http://localhost:5147/public-data', {
+            method: 'GET',
+            mode: 'cors'
+        })
+        .then(response => response.text())
+        .then(data => displayResult('publicDataResult', data, true))
+        .catch(error => displayResult('publicDataResult', 'CORS error: ' + error, false));
+
+        fetch('http://localhost:5147/restricted-data', {
+            method: 'GET',
+            mode: 'cors'
+        })
+        .then(response => response.text())
+        .then(data => displayResult('restrictedDataResult', data, true))
+        .catch(error => displayResult('restrictedDataResult', 'CORS error: ' + error, false));
+
+        fetch('http://localhost:5147/dynamic-origin', {
+            method: 'GET',
+            mode: 'cors'
+        })
+        .then(response => response.text())
+        .then(data => displayResult('dynamicOriginResult', data, true))
+        .catch(error => displayResult('dynamicOriginResult', 'CORS error: ' + error, false));
+    </script>
+</body>
+</html>

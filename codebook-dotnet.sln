@@ -97,6 +97,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_https", "src\chapters\06
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_csrf_protection", "src\chapters\06_security\02_csrf_protection\02_csrf_protection.csproj", "{6120921F-4763-4483-A1C4-8745E365A66E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_cors", "src\chapters\06_security\03_cors\03_cors.csproj", "{2FA538E3-6FFA-4934-BBF4-7AD101DC577F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -263,6 +265,10 @@ Global
 		{6120921F-4763-4483-A1C4-8745E365A66E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6120921F-4763-4483-A1C4-8745E365A66E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6120921F-4763-4483-A1C4-8745E365A66E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FA538E3-6FFA-4934-BBF4-7AD101DC577F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA538E3-6FFA-4934-BBF4-7AD101DC577F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA538E3-6FFA-4934-BBF4-7AD101DC577F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA538E3-6FFA-4934-BBF4-7AD101DC577F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -314,5 +320,6 @@ Global
 		{4CD0A8B7-E199-47FE-AD7F-D51CE675D4D1} = {5D22861C-4B54-4B6B-9D5C-F38894F69BB1}
 		{5C63F31C-8EB7-46AE-98E2-0097FCE6E7BE} = {4CD0A8B7-E199-47FE-AD7F-D51CE675D4D1}
 		{6120921F-4763-4483-A1C4-8745E365A66E} = {4CD0A8B7-E199-47FE-AD7F-D51CE675D4D1}
+		{2FA538E3-6FFA-4934-BBF4-7AD101DC577F} = {4CD0A8B7-E199-47FE-AD7F-D51CE675D4D1}
 	EndGlobalSection
 EndGlobal

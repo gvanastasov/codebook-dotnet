@@ -80,7 +80,7 @@
 ### Security
   - [HTTPS enforcement](./src/chapters/06_security/01_https/Program.cs)
   - [Cross-Site Request Forgery (CSRF) protection](./src/chapters/06_security/02_csrf_protection/Program.cs)
-  - [Cross-Origin Resource Sharing (CORS)](./src/chapters/06_security/04_cors/Program.cs)
+  - [Cross-Origin Resource Sharing (CORS)](./src/chapters/06_security/03_cors/Program.cs)
   - [Input validation and preventing SQL Injection](./src/chapters/06_security/05_sql_injection/Program.cs)
   - [Securing APIs against common vulnerabilities (OWASP Top 10)](./src/chapters/06_security/06_owasp/Program.cs)
 
