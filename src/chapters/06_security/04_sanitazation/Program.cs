@@ -30,6 +30,30 @@ namespace InputSanitizationExample
     {
         public void ConfigureServices(IServiceCollection services)
         {
+            // Introduction:
+            // Cross-Site Scripting (XSS) is a security vulnerability that allows attackers to inject malicious scripts
+            // into web pages viewed by other users. These scripts can steal sensitive information, hijack user sessions,
+            // or perform other malicious actions.
+            //
+            // Sanitization is the process of cleaning user input to remove or neutralize potentially harmful content.
+            // Proper sanitization helps prevent XSS attacks by ensuring that user input is safe before it is processed
+            // or rendered in the application.
+            //
+            // Example:
+            // - A user submits a form with the input "<script>alert('XSS')</script>".
+            // - Without sanitization, this input could be rendered as a script, executing the alert.
+            // - With proper sanitization, the input is cleaned to remove the script tags, preventing the attack.
+            //
+            // Use Cases:
+            // - Preventing XSS attacks in web applications.
+            // - Ensuring that user-generated content is safe to display.
+            // - Protecting sensitive data and maintaining the integrity of the application.
+            //
+            // This chapter demonstrates:
+            // - How to identify and mitigate XSS vulnerabilities.
+            // - Techniques for sanitizing user input in ASP.NET Core.
+            // - Examples of both vulnerable and secure code to illustrate the importance of sanitization.
+
             services.AddControllersWithViews();
         }
 
