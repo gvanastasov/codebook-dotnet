@@ -77,21 +77,12 @@
   - [Implementing OAuth2 and OpenID Connect with IdentityServer](./src/chapters/05_access/06_identity_server/Program.cs)
   - [Using JWT (JSON Web Tokens) for stateless authentication](./src/chapters/05_access/07_jwt/Program.cs)
 
-### Security
+### 6. Security
   - [HTTPS enforcement](./src/chapters/06_security/01_https/Program.cs)
   - [Cross-Site Request Forgery (CSRF) protection](./src/chapters/06_security/02_csrf_protection/Program.cs)
   - [Cross-Origin Resource Sharing (CORS)](./src/chapters/06_security/03_cors/Program.cs)
   - [Cross side scripting (XSS)](./src/chapters/06_security/04_sanitazation/Program.cs)
   - [Fluent Validation](./src/chapters/06_security/05_fluent_validation/Program.cs)
-
-
-Stored Procedures:
-For certain operations, use stored procedures instead of dynamic queries.
-Logging and Monitoring:
-Implement monitoring tools to detect and respond to suspicious query patterns.
-
-
-  - [Input validation and preventing SQL Injection](./src/chapters/06_security/05_sql_injection/Program.cs)
   - [Securing APIs against common vulnerabilities (OWASP Top 10)](./src/chapters/06_security/06_owasp/Program.cs)
 
 ### 6. Performance & Caching
