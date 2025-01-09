@@ -1,0 +1,93 @@
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Sanitization Example</title>
+    <style>
+        .result {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .success {
+            background-color: lightgreen;
+        }
+        .error {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <h1>Input Sanitization Example</h1>
+
+    <!-- Input Form -->
+    <form id="inputForm">
+        <label for="userInput">Enter Input:</label>
+        <input type="text" id="userInput" name="userInput" required value="<iframe src='javascript:parent.alert(`XSS`)'></iframe>"/>
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Output Div -->
+    <div id="output" class="result"></div>
+
+    <script>
+        const form = document.getElementById("inputForm");
+        const output = document.getElementById("output");
+
+        // Function to display results in the UI
+        function displayResult(data, isSuccess) {
+            if (isSuccess) {
+                output.innerHTML = `
+                    <p><strong>Raw Input:</strong> ${data.rawInput}</p>
+                    <p><strong>Sanitized Input:</strong> ${data.sanitizedInput}</p>
+                    <p><strong>Escaped Input:</strong> ${data.escapedInput}</p>
+                    <p><strong>JSON Encoded Input:</strong> ${data.jsonEncodedInput}</p>
+                `;
+                output.className = "result success";
+            } else {
+                output.textContent = "Error: " + data.Error;
+                output.className = "result error";
+            }
+        }
+
+        // Function to send the AJAX request
+        async function sendRequest(userInput) {
+            try {
+                const response = await fetch("/process-input", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                    body: `userInput=${encodeURIComponent(userInput)}`
+                });
+
+                const result = await response.json();
+
+                if (response.ok) {
+                    displayResult(result, true);
+                } else {
+                    displayResult(result, false);
+                }
+            } catch (error) {
+                displayResult({ Error: "An error occurred: " + error.message }, false);
+            }
+        }
+
+        // Handle the form submission
+        form.addEventListener("submit", (event) => {
+            event.preventDefault(); // Prevent default form submission
+            const userInput = document.getElementById("userInput").value;
+            sendRequest(userInput); // Send the input to the API
+        });
+
+        // Automatically send a request when the page loads
+        window.addEventListener("load", () => {
+            const userInput = document.getElementById("userInput").value;
+            sendRequest(userInput);
+        });
+    </script>
+</body>
+</html>
