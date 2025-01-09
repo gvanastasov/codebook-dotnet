@@ -1,5 +1,5 @@
 {
-    "CustomSettings": {
+    "CustomSetting1": {
         "Setting1": "Value1",
         "Setting2": "Value2"
     }
