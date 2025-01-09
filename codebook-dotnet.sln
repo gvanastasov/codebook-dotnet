@@ -101,6 +101,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_cors", "src\chapters\06_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_sanitazation", "src\chapters\06_security\04_sanitazation\04_sanitazation.csproj", "{B560D070-48C3-4547-9D1B-77B42C0DCC5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_fluent_validation", "src\chapters\06_security\05_fluent_validation\05_fluent_validation.csproj", "{163E6CFF-3E5E-4F2F-9B6B-37B5D4D60B25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -275,6 +277,10 @@ Global
 		{B560D070-48C3-4547-9D1B-77B42C0DCC5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B560D070-48C3-4547-9D1B-77B42C0DCC5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B560D070-48C3-4547-9D1B-77B42C0DCC5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{163E6CFF-3E5E-4F2F-9B6B-37B5D4D60B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{163E6CFF-3E5E-4F2F-9B6B-37B5D4D60B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{163E6CFF-3E5E-4F2F-9B6B-37B5D4D60B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{163E6CFF-3E5E-4F2F-9B6B-37B5D4D60B25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -328,5 +334,6 @@ Global
 		{6120921F-4763-4483-A1C4-8745E365A66E} = {4CD0A8B7-E199-47FE-AD7F-D51CE675D4D1}
 		{2FA538E3-6FFA-4934-BBF4-7AD101DC577F} = {4CD0A8B7-E199-47FE-AD7F-D51CE675D4D1}
 		{B560D070-48C3-4547-9D1B-77B42C0DCC5F} = {4CD0A8B7-E199-47FE-AD7F-D51CE675D4D1}
+		{163E6CFF-3E5E-4F2F-9B6B-37B5D4D60B25} = {4CD0A8B7-E199-47FE-AD7F-D51CE675D4D1}
 	EndGlobalSection
 EndGlobal

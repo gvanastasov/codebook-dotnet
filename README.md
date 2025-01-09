@@ -82,10 +82,9 @@
   - [Cross-Site Request Forgery (CSRF) protection](./src/chapters/06_security/02_csrf_protection/Program.cs)
   - [Cross-Origin Resource Sharing (CORS)](./src/chapters/06_security/03_cors/Program.cs)
   - [Cross side scripting (XSS)](./src/chapters/06_security/04_sanitazation/Program.cs)
+  - [Fluent Validation](./src/chapters/06_security/05_fluent_validation/Program.cs)
 
 
-  Centralized Validation:
-Use FluentValidation to define reusable rules for complex models.
 Stored Procedures:
 For certain operations, use stored procedures instead of dynamic queries.
 Logging and Monitoring:

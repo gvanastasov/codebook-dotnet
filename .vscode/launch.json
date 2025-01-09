@@ -15,6 +15,12 @@
             "type": "dotnet",
             "request": "launch",
             "projectPath": "${workspaceFolder}/src/chapters/05_access/06_identity_server/06_identity_server.csproj"
+        },
+        {
+            "name": "C#: 05_fluent_validation Debug",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/src/chapters/06_security/05_fluent_validation/05_fluent_validation.csproj"
         }
     ]
 }

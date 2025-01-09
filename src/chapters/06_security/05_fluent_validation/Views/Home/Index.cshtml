@@ -1,0 +1,87 @@
+@using Microsoft.AspNetCore.Mvc.ModelBinding
+
+@model FluentValidationExample.User
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-control {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+        }
+        .btn {
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .alert {
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border-radius: 5px;
+        }
+        .text-danger {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<h1>User Registration</h1>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<form method="post" action="/register">
+    <div class="form-group">
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" name="Name" value="@Model.Name" class="form-control" />
+        @if (ViewData.ModelState.ContainsKey("Name") && ViewData.ModelState["Name"].ValidationState == ModelValidationState.Invalid)
+        {
+            <div class="text-danger">@ViewData.ModelState["Name"].Errors[0].ErrorMessage</div>
+        }
+    </div>
+
+    <div class="form-group">
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" name="Email" value="@Model.Email" class="form-control" />
+        @if (ViewData.ModelState.ContainsKey("Email") && ViewData.ModelState["Email"].ValidationState == ModelValidationState.Invalid)
+        {
+            <div class="text-danger">@ViewData.ModelState["Email"].Errors[0].ErrorMessage</div>
+        }
+    </div>
+
+    <div class="form-group">
+        <label for="Password">Password:</label>
+        <input type="password" id="Password" name="Password" value="@Model.Password" class="form-control" />
+        @if (ViewData.ModelState.ContainsKey("Password") && ViewData.ModelState["Password"].ValidationState == ModelValidationState.Invalid)
+        {
+            <div class="text-danger">@ViewData.ModelState["Password"].Errors[0].ErrorMessage</div>
+        }
+    </div>
+
+    <button type="submit" class="btn">Register</button>
+</form>
+
+</body>
+</html>
