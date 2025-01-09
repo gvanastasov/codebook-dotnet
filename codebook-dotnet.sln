@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_blazor_app", "src\chapte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_maui", "src\chapters\01_project_types\07_maui\07_maui.csproj", "{3C7C28C3-0F23-43D6-BC2D-E960EFA09063}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_project_blocks", "02_project_blocks", "{6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_project_configuration", "02_project_configuration", "{6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_dependency_injection", "src\chapters\02_project_configuration\01_dependency_injection\01_dependency_injection.csproj", "{16F332D2-F15D-4AC1-BCE1-4CA8FBCF55D0}"
 EndProject
@@ -104,6 +104,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_fluent_validation", "src\chapters\06_security\05_fluent_validation\05_fluent_validation.csproj", "{163E6CFF-3E5E-4F2F-9B6B-37B5D4D60B25}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_owasp", "src\chapters\06_security\06_owasp\06_owasp.csproj", "{364C818C-19B0-4AD9-A70A-0888AA61B8ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_configuration_providers", "src\chapters\02_project_configuration\06_configuration_providers\06_configuration_providers.csproj", "{B8C9A56B-9FB2-4D10-86E0-A8D9EF6369D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -287,6 +289,10 @@ Global
 		{364C818C-19B0-4AD9-A70A-0888AA61B8ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{364C818C-19B0-4AD9-A70A-0888AA61B8ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{364C818C-19B0-4AD9-A70A-0888AA61B8ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8C9A56B-9FB2-4D10-86E0-A8D9EF6369D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C9A56B-9FB2-4D10-86E0-A8D9EF6369D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C9A56B-9FB2-4D10-86E0-A8D9EF6369D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C9A56B-9FB2-4D10-86E0-A8D9EF6369D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -342,5 +348,6 @@ Global
 		{B560D070-48C3-4547-9D1B-77B42C0DCC5F} = {4CD0A8B7-E199-47FE-AD7F-D51CE675D4D1}
 		{163E6CFF-3E5E-4F2F-9B6B-37B5D4D60B25} = {4CD0A8B7-E199-47FE-AD7F-D51CE675D4D1}
 		{364C818C-19B0-4AD9-A70A-0888AA61B8ED} = {4CD0A8B7-E199-47FE-AD7F-D51CE675D4D1}
+		{B8C9A56B-9FB2-4D10-86E0-A8D9EF6369D0} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
 	EndGlobalSection
 EndGlobal
