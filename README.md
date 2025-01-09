@@ -26,7 +26,7 @@
   - [User secrets](./src/chapters/02_project_configuration/05_user_secrets/Program.cs)
   - [Configuration Providers](./src/chapters/02_project_configuration/06_configuration_providers/Program.cs)
   - [Environment Configuration](./src/chapters/02_project_configuration/07_environment_configuration/Program.cs)
-  - [Feature Toggles/Flags](./src/chapters/02_project_configuration/08_feature_toggles/Program.cs)
+  - [Feature Toggles/Flags](./src/chapters/02_project_configuration/08_feature_flags/Program.cs)
   - [Localization](./src/chapters/02_project_configuration/09_localization/Program.cs)
   - [Authentication & Authorization](./src/chapters/02_project_configuration/10_authentication_authorization/Program.cs)
   - [Health Checks](./src/chapters/02_project_configuration/11_health_checks/Program.cs)
