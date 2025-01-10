@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session and Cookie Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        button {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Session and Cookie Management</h1>
+
+    <h2>Session</h2>
+    <label for="sessionKey">Key:</label>
+    <input type="text" id="sessionKey" placeholder="Enter session key">
+    <label for="sessionValue">Value:</label>
+    <input type="text" id="sessionValue" placeholder="Enter session value">
+    <button id="setSessionButton">Set Session</button>
+    <button id="getSessionButton">Get Session</button>
+    <p id="sessionResult"></p>
+
+    <h2>Cookies</h2>
+    <label for="cookieKey">Key:</label>
+    <input type="text" id="cookieKey" placeholder="Enter cookie key">
+    <label for="cookieValue">Value:</label>
+    <input type="text" id="cookieValue" placeholder="Enter cookie value">
+    <button id="setCookieButton">Set Cookie</button>
+    <button id="getCookieButton">Get Cookie</button>
+    <p id="cookieResult"></p>
+
+    <script>
+        const setSessionButton = document.getElementById('setSessionButton');
+        const getSessionButton = document.getElementById('getSessionButton');
+        const sessionResult = document.getElementById('sessionResult');
+
+        setSessionButton.addEventListener('click', async () => {
+            const key = document.getElementById('sessionKey').value;
+            const value = document.getElementById('sessionValue').value;
+            const response = await fetch('/set-session', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: `key=${encodeURIComponent(key)}&value=${encodeURIComponent(value)}`
+            });
+            const result = await response.json();
+            sessionResult.textContent = result.Message || result.Error;
+        });
+
+        getSessionButton.addEventListener('click', async () => {
+            const key = document.getElementById('sessionKey').value;
+            const response = await fetch(`/get-session?key=${encodeURIComponent(key)}`);
+            const result = await response.json();
+            sessionResult.textContent = result.Value || result.Error;
+        });
+
+        const setCookieButton = document.getElementById('setCookieButton');
+        const getCookieButton = document.getElementById('getCookieButton');
+        const cookieResult = document.getElementById('cookieResult');
+
+        setCookieButton.addEventListener('click', async () => {
+            const key = document.getElementById('cookieKey').value;
+            const value = document.getElementById('cookieValue').value;
+            const response = await fetch('/set-cookie', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: `key=${encodeURIComponent(key)}&value=${encodeURIComponent(value)}`
+            });
+            const result = await response.json();
+            cookieResult.textContent = result.Message || result.Error;
+        });
+
+        getCookieButton.addEventListener('click', async () => {
+            const key = document.getElementById('cookieKey').value;
+            const response = await fetch(`/get-cookie?key=${encodeURIComponent(key)}`);
+            const result = await response.json();
+            cookieResult.textContent = result.Value || result.Error;
+        });
+    </script>
+</body>
+</html>

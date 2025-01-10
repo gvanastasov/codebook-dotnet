@@ -29,7 +29,7 @@
   - [Feature Toggles/Flags](./src/chapters/02_project_configuration/08_feature_flags/Program.cs)
   - [Localization](./src/chapters/02_project_configuration/09_localization/Program.cs)
   - [Health Checks](./src/chapters/02_project_configuration/10_health_check/Program.cs)
-  - [Session and Cookies Configuration](./src/chapters/02_project_configuration/13_session_cookies/Program.cs)
+  - [Session and Cookies Configuration](./src/chapters/02_project_configuration/11_session/Program.cs)
   - [Database Configuration](./src/chapters/02_project_configuration/14_database_configuration/Program.cs)
   - [Background Services](./src/chapters/02_project_configuration/15_background_services/Program.cs)
   - [Custom Middleware Configuration](./src/chapters/02_project_configuration/16_custom_middleware/Program.cs)
@@ -40,6 +40,7 @@
 - resources
 - data
 - ef
+- rate limmit
 
 ### 3. Routing
   - [Simple HTTP](./src/chapters/03_routing/01_simple_http/Program.cs)

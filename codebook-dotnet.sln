@@ -115,6 +115,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_localization", "src\chap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_health_check", "src\chapters\02_project_configuration\10_health_check\10_health_check.csproj", "{4553526A-7DC7-4F4C-8DEC-930C1A38336E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_session", "src\chapters\02_project_configuration\11_session\11_session.csproj", "{37AE14FD-E2C0-4E24-8C2F-9598EC664D2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -317,6 +319,10 @@ Global
 		{4553526A-7DC7-4F4C-8DEC-930C1A38336E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4553526A-7DC7-4F4C-8DEC-930C1A38336E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4553526A-7DC7-4F4C-8DEC-930C1A38336E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37AE14FD-E2C0-4E24-8C2F-9598EC664D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37AE14FD-E2C0-4E24-8C2F-9598EC664D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37AE14FD-E2C0-4E24-8C2F-9598EC664D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37AE14FD-E2C0-4E24-8C2F-9598EC664D2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -377,5 +383,6 @@ Global
 		{30DC9AB7-81AB-4487-BA1F-F02010491D2B} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
 		{C64E363E-EDC9-4516-A68B-4A9CCA159503} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
 		{4553526A-7DC7-4F4C-8DEC-930C1A38336E} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
+		{37AE14FD-E2C0-4E24-8C2F-9598EC664D2D} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
 	EndGlobalSection
 EndGlobal
