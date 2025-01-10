@@ -1,0 +1,20 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localization Example</title>
+</head>
+<body>
+    <h1>@Localizer["Greeting"]</h1>
+    <p>@Localizer["Instruction"]</p>
+
+    <form method="post" action="/Home/ChangeLanguage">
+        <button type="submit" name="culture" value="en-US">English</button>
+        <button type="submit" name="culture" value="es-ES">Español</button>
+    </form>
+</body>
+</html>

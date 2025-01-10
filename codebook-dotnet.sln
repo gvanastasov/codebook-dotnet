@@ -111,6 +111,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_environment_configuratio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_feature_flags", "src\chapters\02_project_configuration\08_feature_flags\08_feature_flags.csproj", "{30DC9AB7-81AB-4487-BA1F-F02010491D2B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_localization", "src\chapters\02_project_configuration\09_localization\09_localization.csproj", "{C64E363E-EDC9-4516-A68B-4A9CCA159503}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -305,6 +307,10 @@ Global
 		{30DC9AB7-81AB-4487-BA1F-F02010491D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30DC9AB7-81AB-4487-BA1F-F02010491D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30DC9AB7-81AB-4487-BA1F-F02010491D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C64E363E-EDC9-4516-A68B-4A9CCA159503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C64E363E-EDC9-4516-A68B-4A9CCA159503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C64E363E-EDC9-4516-A68B-4A9CCA159503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C64E363E-EDC9-4516-A68B-4A9CCA159503}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -363,5 +369,6 @@ Global
 		{B8C9A56B-9FB2-4D10-86E0-A8D9EF6369D0} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
 		{368AF6EE-CB2D-4267-8735-6A6E8F35FF8E} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
 		{30DC9AB7-81AB-4487-BA1F-F02010491D2B} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
+		{C64E363E-EDC9-4516-A68B-4A9CCA159503} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
 	EndGlobalSection
 EndGlobal

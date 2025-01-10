@@ -1,0 +1,8 @@
+<root>
+  <data name="Greeting" xml:space="preserve">
+    <value>Welcome to Localization Example!</value>
+  </data>
+  <data name="Instruction" xml:space="preserve">
+    <value>Click the buttons below to change the language.</value>
+  </data>
+</root>

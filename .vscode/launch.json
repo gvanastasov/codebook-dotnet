@@ -21,6 +21,12 @@
             "type": "dotnet",
             "request": "launch",
             "projectPath": "${workspaceFolder}/src/chapters/06_security/05_fluent_validation/05_fluent_validation.csproj"
+        },
+        {
+            "name": "C#: 09_localization Debug",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/src/chapters/02_project_configuration/09_localization/09_localization.csproj"
         }
     ]
 }
