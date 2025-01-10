@@ -28,9 +28,7 @@
   - [Environment Configuration](./src/chapters/02_project_configuration/07_environment_configuration/Program.cs)
   - [Feature Toggles/Flags](./src/chapters/02_project_configuration/08_feature_flags/Program.cs)
   - [Localization](./src/chapters/02_project_configuration/09_localization/Program.cs)
-  - [Authentication & Authorization](./src/chapters/02_project_configuration/10_authentication_authorization/Program.cs)
-  - [Health Checks](./src/chapters/02_project_configuration/11_health_checks/Program.cs)
-  - [CORS (Cross-Origin Resource Sharing)](./src/chapters/02_project_configuration/12_cors/Program.cs)
+  - [Health Checks](./src/chapters/02_project_configuration/10_health_check/Program.cs)
   - [Session and Cookies Configuration](./src/chapters/02_project_configuration/13_session_cookies/Program.cs)
   - [Database Configuration](./src/chapters/02_project_configuration/14_database_configuration/Program.cs)
   - [Background Services](./src/chapters/02_project_configuration/15_background_services/Program.cs)
@@ -38,9 +36,8 @@
   - [Application Insights and Monitoring](./src/chapters/02_project_configuration/17_application_insights/Program.cs)
   - [Application Secrets Management](./src/chapters/02_project_configuration/18_secrets_management/Program.cs)
   - [Caching Configuration](./src/chapters/02_project_configuration/19_caching/Program.cs)
-  - [Dependency Injection Scopes and Lifetimes](./src/chapters/02_project_configuration/20_di_scopes_lifetimes/Program.cs)
 
-- sources
+- resources
 - data
 - ef
 

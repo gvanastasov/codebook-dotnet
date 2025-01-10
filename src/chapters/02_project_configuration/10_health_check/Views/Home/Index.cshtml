@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Checks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        .healthy {
+            background-color: lightgreen;
+        }
+        .degraded {
+            background-color: lightgoldenrodyellow;
+        }
+        .unhealthy {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <h1>Health Checks Dashboard</h1>
+    <button id="checkHealthButton">Refresh Health Status</button>
+    <div id="healthStatus"></div>
+
+    <script>
+        async function fetchHealthStatus() {
+            const response = await fetch('/health');
+            const data = await response.json();
+
+            const healthStatusDiv = document.getElementById('healthStatus');
+            let html = `
+                <h2>Overall Status: ${data.status}</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Status</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+
+            data.checks.forEach(check => {
+                const rowClass = check.status.toLowerCase();
+                html += `
+                    <tr class="${rowClass}">
+                        <td>${check.name}</td>
+                        <td>${check.status}</td>
+                        <td>${check.description}</td>
+                    </tr>
+                `;
+            });
+
+            html += `
+                    </tbody>
+                </table>
+                <p>Total Health Check Duration: ${data.totalDuration}</p>
+            `;
+
+            healthStatusDiv.innerHTML = html;
+        }
+
+        document.getElementById('checkHealthButton').addEventListener('click', fetchHealthStatus);
+
+        // Fetch health status on page load
+        fetchHealthStatus();
+    </script>
+</body>
+</html>
