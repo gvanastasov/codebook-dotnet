@@ -27,6 +27,12 @@
             "type": "dotnet",
             "request": "launch",
             "projectPath": "${workspaceFolder}/src/chapters/02_project_configuration/09_localization/09_localization.csproj"
+        },
+        {
+            "name": "C#: 12_db Debug",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/src/chapters/02_project_configuration/12_db/12_db.csproj"
         }
     ]
 }

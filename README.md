@@ -30,7 +30,7 @@
   - [Localization](./src/chapters/02_project_configuration/09_localization/Program.cs)
   - [Health Checks](./src/chapters/02_project_configuration/10_health_check/Program.cs)
   - [Session and Cookies Configuration](./src/chapters/02_project_configuration/11_session/Program.cs)
-  - [Database Configuration](./src/chapters/02_project_configuration/14_database_configuration/Program.cs)
+  - [Database Configuration](./src/chapters/02_project_configuration/12_db/Program.cs)
   - [Background Services](./src/chapters/02_project_configuration/15_background_services/Program.cs)
   - [Custom Middleware Configuration](./src/chapters/02_project_configuration/16_custom_middleware/Program.cs)
   - [Application Insights and Monitoring](./src/chapters/02_project_configuration/17_application_insights/Program.cs)
