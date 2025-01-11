@@ -32,8 +32,7 @@
   - [Session and Cookies Configuration](./src/chapters/02_project_configuration/11_session/Program.cs)
   - [Database Configuration](./src/chapters/02_project_configuration/12_db/Program.cs)
   - [Background Services](./src/chapters/02_project_configuration/13_background_services/Program.cs)
-  - [Application Insights and Monitoring](./src/chapters/02_project_configuration/17_application_insights/Program.cs)
-  - [Caching Configuration](./src/chapters/02_project_configuration/19_caching/Program.cs)
+  - [Caching Configuration](./src/chapters/02_project_configuration/14_caching/Program.cs)
 
 - resources
 - data

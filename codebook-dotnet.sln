@@ -121,6 +121,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_db", "src\chapters\02_pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_background_services", "src\chapters\02_project_configuration\13_background_services\13_background_services.csproj", "{3CDDBC19-7FF5-42A6-A654-3880AA0BBDCA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_caching", "src\chapters\02_project_configuration\14_caching\14_caching.csproj", "{A9AC4074-4A1C-47A3-8087-85827739F614}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -335,6 +337,10 @@ Global
 		{3CDDBC19-7FF5-42A6-A654-3880AA0BBDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CDDBC19-7FF5-42A6-A654-3880AA0BBDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CDDBC19-7FF5-42A6-A654-3880AA0BBDCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9AC4074-4A1C-47A3-8087-85827739F614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9AC4074-4A1C-47A3-8087-85827739F614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9AC4074-4A1C-47A3-8087-85827739F614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9AC4074-4A1C-47A3-8087-85827739F614}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -398,5 +404,6 @@ Global
 		{37AE14FD-E2C0-4E24-8C2F-9598EC664D2D} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
 		{8BB50B9F-7154-4344-B1F8-834640E0E162} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
 		{3CDDBC19-7FF5-42A6-A654-3880AA0BBDCA} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
+		{A9AC4074-4A1C-47A3-8087-85827739F614} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
 	EndGlobalSection
 EndGlobal
