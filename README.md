@@ -33,11 +33,12 @@
   - [Database Configuration](./src/chapters/02_project_configuration/12_db/Program.cs)
   - [Background Services](./src/chapters/02_project_configuration/13_background_services/Program.cs)
   - [Caching Configuration](./src/chapters/02_project_configuration/14_caching/Program.cs)
+  - [Resources](./src/chapters/02_project_configuration/15_resources/Program.cs)
 
-- resources
-- data
 - ef
 - rate limmit
+bundling and minification
+dynamic file generation
 
 ### 3. Routing
   - [Simple HTTP](./src/chapters/03_routing/01_simple_http/Program.cs)
