@@ -119,6 +119,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_session", "src\chapters\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_db", "src\chapters\02_project_configuration\12_db\12_db.csproj", "{8BB50B9F-7154-4344-B1F8-834640E0E162}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_background_services", "src\chapters\02_project_configuration\13_background_services\13_background_services.csproj", "{3CDDBC19-7FF5-42A6-A654-3880AA0BBDCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -329,6 +331,10 @@ Global
 		{8BB50B9F-7154-4344-B1F8-834640E0E162}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BB50B9F-7154-4344-B1F8-834640E0E162}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BB50B9F-7154-4344-B1F8-834640E0E162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CDDBC19-7FF5-42A6-A654-3880AA0BBDCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CDDBC19-7FF5-42A6-A654-3880AA0BBDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CDDBC19-7FF5-42A6-A654-3880AA0BBDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CDDBC19-7FF5-42A6-A654-3880AA0BBDCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -391,5 +397,6 @@ Global
 		{4553526A-7DC7-4F4C-8DEC-930C1A38336E} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
 		{37AE14FD-E2C0-4E24-8C2F-9598EC664D2D} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
 		{8BB50B9F-7154-4344-B1F8-834640E0E162} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
+		{3CDDBC19-7FF5-42A6-A654-3880AA0BBDCA} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
 	EndGlobalSection
 EndGlobal

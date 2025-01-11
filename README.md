@@ -19,8 +19,8 @@
   - [API Projects (e.g., ASP.NET Core Web API)] todo
 
 ### 2. Project Configuration
-  - [Dependency Injection (DI) in .NET](./src/chapters/02_project_blocks/01_dependency_injection/Program.cs)
-  - [Middleware](./src/chapters/02_project_blocks/02_middleware/Program.cs)
+  - [Dependency Injection (DI) in .NET](./src/chapters/02_project_configuration/01_dependency_injection/Program.cs)
+  - [Middleware](./src/chapters/02_project_configuration/02_middleware/Program.cs)
   - [Logging](./src/chapters/02_project_configuration/03_logging/Program.cs)
   - [App Settings](./src/chapters/02_project_configuration/04_appsettings/Program.cs)
   - [User secrets](./src/chapters/02_project_configuration/05_user_secrets/Program.cs)
@@ -31,10 +31,8 @@
   - [Health Checks](./src/chapters/02_project_configuration/10_health_check/Program.cs)
   - [Session and Cookies Configuration](./src/chapters/02_project_configuration/11_session/Program.cs)
   - [Database Configuration](./src/chapters/02_project_configuration/12_db/Program.cs)
-  - [Background Services](./src/chapters/02_project_configuration/15_background_services/Program.cs)
-  - [Custom Middleware Configuration](./src/chapters/02_project_configuration/16_custom_middleware/Program.cs)
+  - [Background Services](./src/chapters/02_project_configuration/13_background_services/Program.cs)
   - [Application Insights and Monitoring](./src/chapters/02_project_configuration/17_application_insights/Program.cs)
-  - [Application Secrets Management](./src/chapters/02_project_configuration/18_secrets_management/Program.cs)
   - [Caching Configuration](./src/chapters/02_project_configuration/19_caching/Program.cs)
 
 - resources
