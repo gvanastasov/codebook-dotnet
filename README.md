@@ -75,4 +75,4 @@
 ### 7. Testing
   - [Using xUnit for testing](./src/chapters/07_testing/01_xunit/Program.cs)
   - [Mocking dependencies](./src/chapters/07_testing/02_mocking/Program.cs)
-  - [Writing integration tests](./src/chapters/11_testing/04_integration_tests/Program.cs)
+  - [Writing integration tests](./src/chapters/07_testing/03_integration_testing/Program.cs)
