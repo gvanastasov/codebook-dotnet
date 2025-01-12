@@ -22,6 +22,7 @@ Learn about the different project types in .NET:
 
 ### 2. Project Configuration
 Explore key configuration concepts in .NET:
+- [A Program](./src/chapters/02_project_configuration/00_program/Program.cs)
 - [Dependency Injection (DI)](./src/chapters/02_project_configuration/01_dependency_injection/Program.cs)
 - [Middleware](./src/chapters/02_project_configuration/02_middleware/Program.cs)
 - [Logging](./src/chapters/02_project_configuration/03_logging/Program.cs)
