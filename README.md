@@ -72,10 +72,7 @@
   - [Fluent Validation](./src/chapters/06_security/05_fluent_validation/Program.cs)
   - [Securing APIs against common vulnerabilities (OWASP Top 10)](./src/chapters/06_security/06_owasp/Program.cs)
 
-  - [Minification of static files](./src/chapters/08_performance/03_minification/Program.cs)
-
-### 8. Testing & Debugging
-- [Unit Testing and Integration Testing](./src/chapters/11_testing/01_unit_testing/Program.cs)
-  - [Using xUnit for testing](./src/chapters/11_testing/02_xunit/Program.cs)
+### 7. Testing
+  - [Using xUnit for testing](./src/chapters/07_testing/01_xunit/Program.cs)
   - [Mocking dependencies](./src/chapters/11_testing/03_mocking/Program.cs)
   - [Writing integration tests](./src/chapters/11_testing/04_integration_tests/Program.cs)
