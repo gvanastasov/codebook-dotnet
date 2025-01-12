@@ -129,6 +129,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_orm", "src\chapters\02_p
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_rate_limits", "src\chapters\02_project_configuration\17_rate_limits\17_rate_limits.csproj", "{998FFC5B-87B8-4A23-A7A1-9D207BC70833}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_response_compression", "src\chapters\02_project_configuration\18_response_compression\18_response_compression.csproj", "{A87FF5EB-DAE3-45EB-8160-389C930ACD1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -359,6 +361,10 @@ Global
 		{998FFC5B-87B8-4A23-A7A1-9D207BC70833}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{998FFC5B-87B8-4A23-A7A1-9D207BC70833}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{998FFC5B-87B8-4A23-A7A1-9D207BC70833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A87FF5EB-DAE3-45EB-8160-389C930ACD1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87FF5EB-DAE3-45EB-8160-389C930ACD1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87FF5EB-DAE3-45EB-8160-389C930ACD1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87FF5EB-DAE3-45EB-8160-389C930ACD1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -426,5 +432,6 @@ Global
 		{C2CB2472-2C9C-4ECA-9E48-E16CC77BA8DA} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
 		{79D9B49A-F919-4AFB-9A2F-B7E4A321D8FB} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
 		{998FFC5B-87B8-4A23-A7A1-9D207BC70833} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
+		{A87FF5EB-DAE3-45EB-8160-389C930ACD1C} = {6230E8BC-BF39-4DE7-A283-3BE1B8F9866F}
 	EndGlobalSection
 EndGlobal
