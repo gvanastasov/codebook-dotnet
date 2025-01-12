@@ -137,6 +137,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_xunit", "src\chapters\07
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_xunit_test", "src\chapters\07_testing\01_xunit_test\01_xunit_test.csproj", "{2DC91B05-A7C3-4BAC-9212-38944E028E2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_mocking", "src\chapters\07_testing\02_mocking\02_mocking.csproj", "{29D8C328-FADD-4E5E-B781-B0B60E346916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_mocking_test", "src\chapters\07_testing\02_mocking_test\02_mocking_test.csproj", "{D5ABABBC-23C8-4018-BB99-2C3F6AAAFD8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -379,6 +383,14 @@ Global
 		{2DC91B05-A7C3-4BAC-9212-38944E028E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DC91B05-A7C3-4BAC-9212-38944E028E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DC91B05-A7C3-4BAC-9212-38944E028E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29D8C328-FADD-4E5E-B781-B0B60E346916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D8C328-FADD-4E5E-B781-B0B60E346916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D8C328-FADD-4E5E-B781-B0B60E346916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D8C328-FADD-4E5E-B781-B0B60E346916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5ABABBC-23C8-4018-BB99-2C3F6AAAFD8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5ABABBC-23C8-4018-BB99-2C3F6AAAFD8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5ABABBC-23C8-4018-BB99-2C3F6AAAFD8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5ABABBC-23C8-4018-BB99-2C3F6AAAFD8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -450,5 +462,7 @@ Global
 		{D31E1688-D7F9-4AED-AB96-144650FEB3D1} = {5D22861C-4B54-4B6B-9D5C-F38894F69BB1}
 		{3EA0561C-6C3E-4CC5-B24D-A6D90925A49C} = {D31E1688-D7F9-4AED-AB96-144650FEB3D1}
 		{2DC91B05-A7C3-4BAC-9212-38944E028E2A} = {D31E1688-D7F9-4AED-AB96-144650FEB3D1}
+		{29D8C328-FADD-4E5E-B781-B0B60E346916} = {D31E1688-D7F9-4AED-AB96-144650FEB3D1}
+		{D5ABABBC-23C8-4018-BB99-2C3F6AAAFD8E} = {D31E1688-D7F9-4AED-AB96-144650FEB3D1}
 	EndGlobalSection
 EndGlobal
