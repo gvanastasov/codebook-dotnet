@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rate Limiting Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .btn {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+        #result {
+            margin-top: 20px;
+        }
+        .error {
+            color: red;
+        }
+        .success {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Rate Limiting Example</h1>
+    <p>This page demonstrates how rate limiting works in ASP.NET Core.</p>
+    <p>API Endpoint: <code>/api/test-rate-limit</code></p>
+    <p>You can send requests to this endpoint, but you will be limited to a maximum of 5 requests per minute.</p>
+    
+    <button class="btn" id="rateLimitBtn">Test Rate Limit</button>
+    <div id="result"></div>
+
+    <script>
+        document.getElementById("rateLimitBtn").onclick = function() {
+            axios.get('/api/test-rate-limit')
+                .then(function (response) {
+                    document.getElementById("result").innerHTML = `<p class="success">Request successful!</p>`;
+                })
+                .catch(function (error) {
+                    if (error.response && error.response.status === 429) {
+                        document.getElementById("result").innerHTML = `<p class="error">Rate limit exceeded. Try again later.</p>`;
+                    } else {
+                        document.getElementById("result").innerHTML = `<p class="error">An error occurred. Please try again.</p>`;
+                    }
+                });
+        }
+    </script>
+</body>
+</html>
